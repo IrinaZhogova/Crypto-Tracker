@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		2D553E2020E50F04001AD873 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D553E1F20E50F04001AD873 /* AppDelegate.swift */; };
-		2D553E2220E50F04001AD873 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D553E2120E50F04001AD873 /* ViewController.swift */; };
-		2D553E2520E50F04001AD873 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D553E2320E50F04001AD873 /* Main.storyboard */; };
 		2D553E2720E50F06001AD873 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D553E2620E50F06001AD873 /* Assets.xcassets */; };
 		2D553E2A20E50F06001AD873 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D553E2820E50F06001AD873 /* LaunchScreen.storyboard */; };
+		2D553E3220E50F30001AD873 /* CryptoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D553E3120E50F30001AD873 /* CryptoTableViewController.swift */; };
+		2D553E3420E510DF001AD873 /* CoinData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D553E3320E510DF001AD873 /* CoinData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2D553E1C20E50F04001AD873 /* Crypto Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Crypto Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D553E1F20E50F04001AD873 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2D553E2120E50F04001AD873 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2D553E2420E50F04001AD873 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2D553E2620E50F06001AD873 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D553E2920E50F06001AD873 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2D553E2B20E50F06001AD873 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D553E3120E50F30001AD873 /* CryptoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTableViewController.swift; sourceTree = "<group>"; };
+		2D553E3320E510DF001AD873 /* CoinData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +55,8 @@
 			isa = PBXGroup;
 			children = (
 				2D553E1F20E50F04001AD873 /* AppDelegate.swift */,
-				2D553E2120E50F04001AD873 /* ViewController.swift */,
-				2D553E2320E50F04001AD873 /* Main.storyboard */,
+				2D553E3320E510DF001AD873 /* CoinData.swift */,
+				2D553E3120E50F30001AD873 /* CryptoTableViewController.swift */,
 				2D553E2620E50F06001AD873 /* Assets.xcassets */,
 				2D553E2820E50F06001AD873 /* LaunchScreen.storyboard */,
 				2D553E2B20E50F06001AD873 /* Info.plist */,
@@ -124,7 +124,6 @@
 			files = (
 				2D553E2A20E50F06001AD873 /* LaunchScreen.storyboard in Resources */,
 				2D553E2720E50F06001AD873 /* Assets.xcassets in Resources */,
-				2D553E2520E50F04001AD873 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,7 +134,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D553E2220E50F04001AD873 /* ViewController.swift in Sources */,
+				2D553E3420E510DF001AD873 /* CoinData.swift in Sources */,
+				2D553E3220E50F30001AD873 /* CryptoTableViewController.swift in Sources */,
 				2D553E2020E50F04001AD873 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,14 +143,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		2D553E2320E50F04001AD873 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2D553E2420E50F04001AD873 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2D553E2820E50F06001AD873 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
